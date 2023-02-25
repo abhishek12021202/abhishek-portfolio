@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import logo from '../images/nomad-amico.png'
 import {SiJavascript,SiNodedotjs,SiMicrosoftazure,SiReact,SiHtml5,SiCss3,SiBootstrap,SiMongodb,SiExpress, SiPython, SiAmazonaws, SiFlask, SiSqlite, SiMysql, SiAngular, SiJava, SiPhp} from 'react-icons/si'
 function Skills() {
   return (
@@ -80,7 +81,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">
-                        <img className="img-fluid" src="../images/Development-pana.png" alt="..."></img>
+                        <img className="img-fluid" src={logo} alt="..."></img>
                     </div>
                 </div>
             </div>

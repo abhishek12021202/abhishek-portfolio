@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import About from './About'
+import logo from '../images/nomad-bro.png'
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12">
-                  <img className="img-fluid" src="../images/nomad-bro.png" alt="..."></img>
+                  <img className="img-fluid" src={logo} ></img>
                 </div>
 
               </div>

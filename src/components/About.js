@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 function About() {
   return (
     <Fragment>
-        {/* <div className="col py-3 d-flex align-items-center about-image">  */}
+        <div className="col py-3 d-flex align-items-center about-image"> 
           
             <p className='slide-in-bottom'>Ambitious full-stack developer, a self-led learner and team player 
                 with one year of experience in web developement.
@@ -13,7 +13,7 @@ function About() {
 
             </p>
 
-    {/* </div> */}
+    </div>
                
     </Fragment>
   )
