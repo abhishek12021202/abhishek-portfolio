@@ -16,205 +16,58 @@ function MyWork() {
                 </div>
                 <hr></hr>
 
-                Will be adding soon
-                {/* <div className="row">
+                <div className="row">
+                
                     <div className="col-md-4 text-center my-2">
-                        
-                        <div id="carouselExampleControls1" className="carousel slide my-1" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                <img src="../portfolio-images/w-01.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/w-02.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/w-03.png" className="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-                                <GrPrevious/>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-                                <GrNext/>
-                                <span className="visually-hidden">Next</span>
-                            </button>
+                        <h4 className="ff-jose my-1 animate-charcter">Coffee Roster</h4>
+                        <h6>Coffee Roster is a web-based application that allowing customers to browse a menu of coffee and other drinks, customize their orders, and save their favorite items. The application provides a simple and intuitive ordering process that allows customers to select their preferred drink size, add toppings, and specify other preferences before checking out. Coffee Roster also includes features, such as the ability to view order history and manage payment methods, as well as providing shop owners with data analysis and menu management tools.</h6>
+                        <div className="row d-flex justify-content-center">
+                            <a className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
                         </div>
-                            <h5 className="ff-jose my-1">Weather App</h5>
-                            <div className="row d-flex justify-content-center">
-                                <a href="https://weather-yg.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
-                                <a href="https://github.com/Yagnik-Gohil/Weather" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
-                            </div>
+                    </div>
+                    <div className="col-md-4 text-center my-2">
+                        <h4 className="ff-jose my-1 animate-charcter">Alaina Car webapp</h4>
+                        <h6>ALAINA is a comprehensive ride-hailing web application that allows users to request rides, track their ride history, and manage payment methods. The application provides a user-friendly interface for drivers to receive ride requests, navigate to pickup and dropoff locations, and receive payment for completed trips. With three distinct user roles (admin, user, and superadmin), ALAINA offers a flexible and customizable system for managing user accounts, monitoring ride activity, and administering payment transactions.</h6>
+                        <div className="row d-flex justify-content-center">
+                            <a className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
+                        </div>
+                    </div>
 
+                    <div className="col-md-4 text-center my-2">
+                        <h4 className="ff-jose my-1 animate-charcter">Pubgisco Game</h4>
+                        <h6>Constructed a system where more than 1000 players can play different tournaments of PubG and able to create new
+                            tournament with super admins permission.Designed a database and created 137 API to serve data for front-end and added authentication using Firebase.</h6>
+                        <div className="row d-flex justify-content-center">
+                            <a className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
+                        </div>
+                    </div>
+
+
+                    <div className="col-md-4 text-center my-2">
+                        <h4 className="ff-jose my-1 animate-charcter">On-Campus Housing System</h4>
+                        <h6>Built a system for on-campus housing referring UTA Housing Dataset targeting 4 different dependent interfaces. Integrated schemas and API in React front-end and added authentication utilizing Spring Boot. Engineered a system to notify residents whose leases are coming up for renewal with new contract information</h6>
+                        <div className="row d-flex justify-content-center">
+                            <a className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
+                        </div>
                     </div>
                     <div className="col-md-4 text-center my-2">
-                        
-                        <div id="carouselExampleControls2" className="carousel slide my-1" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                <img src="../portfolio-images/m-01.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/m-02.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/m-03.png" className="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                                <GrPrevious/>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                                <GrNext/>
-                                <span className="visually-hidden">Next</span>
-                            </button>
+                        <h4 className="ff-jose my-1 animate-charcter">Smart Streetlight Fault Detection System </h4>
+                        <h6>Constructed a system where more than 1000 players can play different tournaments of PubG and able to create new
+                            tournament with super admins permission.Designed a database and created 137 API to serve data for front-end and added authentication using Firebase.</h6>
+                        <div className="row d-flex justify-content-center">
+                            <a className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
                         </div>
-                        <div>
-                            <h5 className="ff-jose my-1">Movie Browser</h5>
-                            <div className="row d-flex justify-content-center">
-                                <a href="https://moviehunt-react.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
-                                <a href="https://github.com/Yagnik-Gohil/MovieHunt" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
-                            </div>
-                        </div>
-                        
                     </div>
                     <div className="col-md-4 text-center my-2">
-                        
-                        <div id="carouselExampleControls3" className="carousel slide my-1" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                <img src="../portfolio-images/n-01.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/n-02.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/n-03.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/n-04.png" className="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-                                <GrPrevious/>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-                                <GrNext/>
-                                <span className="visually-hidden">Next</span>
-                            </button>
+                        <h4 className="ff-jose my-1 animate-charcter">Question Paper Generator</h4>
+                        <h6>Programmed a Flask app to Generate Question paper of a given Subject using books dataset. Utilized relation database advanced queries to generate 100+ random questions according to pattern. Applied a logic to clean, format, normalize, and vectorized reviews leveraging Pandas and flask for web application.</h6>
+                        <div className="row d-flex justify-content-center">
+                            <a className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
                         </div>
-                            <h5 className="ff-jose my-1">Notes MarketPlace</h5>
-                            <div className="row d-flex justify-content-center">
-                                <a href="https://github.com/Yagnik-Gohil/NoteMarketPlaceHTML" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
-                            </div>
-                        
                     </div>
-                    <div className="col-md-4 text-center my-2">
-                        
-                        <div id="carouselExampleControls4" className="carousel slide my-1" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                <img src="../portfolio-images/solo-01.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/solo-02.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/solo-03.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/solo-04.png" className="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
-                                <GrPrevious/>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
-                                <GrNext/>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                            <h5 className="ff-jose my-1">Solo</h5>
-                            <div className="row d-flex justify-content-center">
-                                <a href="https://solo-webapp.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
-                                <a href="https://github.com/Yagnik-Gohil/Solo" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
-                            </div>
-                        
-                    </div>
-                    <div className="col-md-4 text-center my-2">
-                        
-                        <div id="carouselExampleControls5" className="carousel slide my-1" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                <img src="../portfolio-images/resume-1.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/resume-2.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/resume-3.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/resume-4.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
-                                <GrPrevious/>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
-                                <GrNext/>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                            <h5 className="ff-jose my-1">Resume Builder</h5>
-                            <div className="row d-flex justify-content-center">
-                                <a href="https://resume-builder-yg.netlify.app/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
-                                <a href="https://github.com/Yagnik-Gohil/Resume-Builder" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
-                            </div>
-                        
-                    </div>
-                    <div className="col-md-4 text-center my-2">
-                        
-                        <div id="carouselExampleControls6" className="carousel slide my-1" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                <img src="../portfolio-images/tour-01.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/tour-02.png" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/tour-03.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/tour-04.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                                <div className="carousel-item">
-                                <img src="../portfolio-images/tour-05.jpg" className="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
-                                <GrPrevious/>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
-                                <GrNext/>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                            <h5 className="ff-jose my-1">Natours</h5>
-                            <div className="row d-flex justify-content-center">
-                                <a href="https://natour-yg.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
-                                <a href="https://github.com/Yagnik-Gohil/Natours" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
-                            </div>
-                        
-                    </div>
-                </div> */}
+                    
+
+                </div>
                 
             </div>
         </div>
