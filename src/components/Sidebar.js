@@ -7,6 +7,11 @@ import {GrResume} from 'react-icons/gr'
 import {Link, NavLink} from "react-router-dom";
 
 function Sidebar() {
+
+    const onClickEvent = () => { 
+        window.open('https://github.com/abhishek12021202/abhishekResume/blob/main/Abhishek_Resume.pdf')
+     }
+
   return (
     <Fragment>
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark slide-in-left">
@@ -37,9 +42,9 @@ function Sidebar() {
                             <AiOutlineUnorderedList className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Experience</span>
                         </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li style={{cursor:"pointer"}} onClick={onClickEvent} className="nav-item">
                         <div className="nav-link align-middle px-0 text-white">
-                            <AiOutlineFileText color='white' className='fs-5'/> <span className="ms-1 d-none d-sm-inline "><a style={{textDecoration :"none", color:"white  "}} href="https://github.com/abhishek12021202/abhishekResume/blob/main/Abhishek_Resume.pdf" target="_blank">Resume</a></span>
+                            <AiOutlineFileText color='white' className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Resume</span>
                         </div>
                     </li>
                 </ul>
