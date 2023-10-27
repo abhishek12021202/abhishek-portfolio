@@ -18,9 +18,9 @@ function Experience() {
                         <h4 className="ff-jose ls-2">EXPERIENCE</h4>
                         <ul>
                             <li>
-                                <h4 className="ff-jose my-1 text-red">Software Developer Intern</h4>
+                                <h4 className="ff-jose my-1 text-red">Software Developer</h4>
                                 <h6 className="blue-label px-2 py-1">June 2023 - Present</h6>
-                                <p className="m-0">Copart Inc · Full-time Internship</p>
+                                <p className="m-0">Copart Inc · Full-time</p>
                                 <p>Dallas, Texas, USA</p>
                             </li>
                             <li>

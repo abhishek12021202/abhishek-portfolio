@@ -8,7 +8,7 @@ import {Link, NavLink} from "react-router-dom";
 function Sidebar() {
 
     const onClickEvent = () => { 
-        window.open('https://drive.google.com/file/d/1ZqBmso1ehLDj0LK_y5XucfUwnnqn5QXc/view')
+        window.open('https://drive.google.com/file/d/1glVAF4iyJQ5dflSvZqL_emGJhVKMspsd/view?usp=drive_link')
     }
 
   return (
