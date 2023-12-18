@@ -18,14 +18,14 @@ function Experience() {
                         <h4 className="ff-jose ls-2">EXPERIENCE</h4>
                         <ul>
                             <li>
-                                <h4 className="ff-jose my-1 text-red">Software Developer</h4>
+                                <h4 className="ff-jose my-1 text-red">Software Developer Intern</h4>
                                 <h6 className="blue-label px-2 py-1">June 2023 - Present</h6>
                                 <p className="m-0">Copart Inc · Full-time</p>
                                 <p>Dallas, Texas, USA</p>
                             </li>
                             <li>
-                                <h4 className="ff-jose my-1 text-red">Frontend developer</h4>
-                                <h6 className="blue-label px-2 py-1">March 2018 - July 2021</h6>
+                                <h4 className="ff-jose my-1 text-red">MERN Stack developer</h4>
+                                <h6 className="blue-label px-2 py-1">August 2020 - July 2021</h6>
                                 <p className="m-0">Tagline Infotech · Full-time</p>
                                 <p>Surat, Gujarat, India</p>
                             </li>
