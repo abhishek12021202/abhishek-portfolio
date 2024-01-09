@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import { SiCodechef, SiHackerrank } from 'react-icons/si';
 
 function Experience() {
   return (
@@ -25,9 +24,9 @@ function Experience() {
                             </li>
                             <li>
                                 <h4 className="ff-jose my-1 text-red">MERN Stack developer</h4>
-                                <h6 className="blue-label px-2 py-1">August 2020 - July 2021</h6>
+                                <h6 className="blue-label px-2 py-1">March 2018 - July 2021</h6>
                                 <p className="m-0">Tagline Infotech · Full-time</p>
-                                <p>Surat, Gujarat, India</p>
+                                <p>India</p>
                             </li>
 
                         </ul>

@@ -8,8 +8,7 @@ import {Link, NavLink} from "react-router-dom";
 function Sidebar() {
 
     const onClickEvent = () => { 
-        console.log('abhishek :>> ');
-        // window.open('https://drive.google.com/file/d/1OmXrzW_9_sNtJ9WlTH4rtzp4AoIf-uUK/view?usp=drive_link')
+        window.open('https://drive.google.com/file/d/1PpFx3NeW3M8vPW7JFfJLAagv3oNPODL7/view?usp=sharing')
     }
 
   return (
@@ -59,7 +58,7 @@ function Sidebar() {
                         <li> <hr className="dropdown-divider"/> </li>
                         <li><a className="dropdown-item text-black" href="https://www.linkedin.com/in/abhishek-kapopara-397527197/" target="/blank"><AiFillLinkedin className='fs-5'/> LinkedIn</a></li>
                         <li> <hr className="dropdown-divider"/> </li>
-                        <li><a className="dropdown-item text-black" href="https://github.com/abhishek12021202" target="/blank"><AiFillGithub className='fs-5'/> Github</a></li>
+                        <li style={{cursor: 'pointer'}}><a className="dropdown-item text-black" href><AiFillGithub className='fs-5'/> Github</a></li>
                     </ul>
                 </div>
             </div>
@@ -69,3 +68,5 @@ function Sidebar() {
 }
 
 export default Sidebar
+
+
